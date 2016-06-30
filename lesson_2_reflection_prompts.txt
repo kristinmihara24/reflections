@@ -7,14 +7,19 @@ The staging area is different from the working directory because it is the place
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+You can use the staging area to make sure every file you want updated is committed at the same time, especially if code from one file effects the other.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Branches would be helpful when trying to create new features. Branches would help keep certain parts of your code organized from different points.
 
 How do the diagrams help you visualize the branch structure?
+Diagrams help you visualize where in your code you are creating branches, what branches are connected to what branches, and parts of a branch that are unreachable.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+Merging two branches together can add a new feature or connect a different area of code into another.  We represent it like a tree because thats how it acts, each branch is connected to a main branch that can be connected in one way or another.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+Git’s automatic merging helps the user figure out what parts of the code need to be fixed in order to resolve merging conflicts.  Always doing it manually could take forever to see what parts of the code have been changed.
